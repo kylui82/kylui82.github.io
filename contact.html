@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <link href=
+                  'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
+          rel='stylesheet'>
+    <script src=
+                    "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script src=
+                    "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+    </script>
+    <script>
+    $(document).ready(function() {
+
+    $("#name,#email,#subject").tooltip({
+    position: {my: "left center", at: "right top"},
+    show: {
+    effect: "slide",
+    duration: 400
+    },
+    hide: {
+    effect: "slide",
+    duration: 400
+    }
+    });
+    })
+    </script>
+</head>
+
+<body>
+  <div class="navbar">
+      <ul>
+        <li><a class="active"  id="contact" style="color:antiquewhite;" href="contact.html">CONTACT</a></li>
+        <li><a href="moreme.html">MORE ME</a></li>
+        <li><a href="resume.html">RESUME</a></li>
+        <li><a href="project.html">PROJECT WORK</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="home.html">HOME</a></li>
+      </ul>
+  </div>
+
+<div class="content">
+<div class="header">
+    <h1>CONTACT</h1>
+</div>
+
+<div class="row">
+    <div class="column">
+      <h2>Hello! Feel free to drop me a note</h2>
+
+    </div>
+    <div class="column" ;>
+      <div class="container">
+          <form action="https://formspree.io/f/xdobwbgb"
+                method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" title="Please provide your name" required>
+            <p>What is your favorite programming language:</p>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Html</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+            <input type="radio" id="python" name="fav_language" value="Python">
+            <label for="python">Python</label><br>
+            <input type="radio" id="others" name="fav_language" value="Others">
+            <label for="others">Others</label><br>
+            <br>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="Email" title="Please provide your email" required>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" title="You can write anything." required style="height:80px"></textarea>
+              <input type="button" id="css" name="fav_language" onclick="test()" value="CSS">&nbsp;
+
+            <button id="send" type="submit">Send</button>
+
+
+        </form>
+      </div>
+
+    </div>
+
+   
+</div>
+</div>
+<footer>
+    <a href="mailto:kylui82@gmail.com" class="fa fa-google"></a>
+    <a href="https://github.com/kylui82" class="fa fa-github"></a>
+
+    <p>Copyright © 2022 Francis Lui</p>
+</footer>
+</body>
+
+</html>

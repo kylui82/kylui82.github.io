@@ -1,0 +1,338 @@
+
+body {
+     font-family: 'Yeseva One', sans-serif;
+     background: #ffffff;
+     margin-bottom: 10px;
+ }
+ /* change theme*/
+ .theme {
+   color: white;
+   background-color:black;
+   }
+/* Header/Logo Title */
+.header {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 120px;
+  text-align: left;
+  color: #3755ff;
+  font-size: 25px;
+}
+/* navigation */
+ul {
+  list-style-type: none;
+  padding: 15px 10px 15px 10px;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  min-width:700px;
+  top: 0;
+  ;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #005239;
+  text-align: center;
+  padding: 15px 10px 15px 10px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(233, 255, 31);
+}
+
+.active {
+    text-decoration: underline ;
+    background-color: #3755ff;
+    color:antiquewhite;
+}
+/* navigation cta button */
+#contact {
+  border-radius: 5px;
+  border: 2px;
+  border-style: solid;
+  border-color: #005239;
+  width: 100px;
+  color: #005239;  
+  
+}
+
+#contact:hover:not(.active) {
+  background-color: rgb(233, 255, 31);
+  
+}
+/*  About */
+#smallbtn {
+    padding: 7px;
+    background-color: #F0BB00;
+    color: black;
+    width: 70px;
+    border-radius: 30px;
+
+}
+
+.about-text {
+  font-size: 17px;
+  width: 60%;
+  padding: 40px 0;
+}
+
+img {
+  float: right;
+  padding: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 10px;
+  height: 100px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+
+ footer {
+ padding-top: 150px;
+    }
+}
+
+/*  Contact */
+.row {
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 250px;
+  padding-left: 120px;
+  text-align: left;
+  color: #005239;
+
+}
+
+input[type=text], textarea {
+  font-family: 'Yeseva One', sans-serif;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(97, 97, 97);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#send {
+  background-color: #3755ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 600;
+  height: 50px;
+}
+
+#send:hover {
+  background-color: #00093a;
+}
+
+/*  tooltip */
+.ui-tooltip {
+    max-width: 220px;
+  }
+
+/*  Resume */
+.container {
+  border-radius: 5px;
+  border-width: 7px;
+  border-color: #00093a;
+  background-color: rgb(185, 223, 209);
+  padding: 30px;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  padding-top: 30px;
+  
+}
+
+td {
+  height: 70px;
+  vertical-align: text-top;
+}
+
+th {
+border-top: 0.5px solid rgb(189, 189, 189);
+width:1%;
+}
+
+/* More me */
+.column-gallery {
+  -ms-flex: 33%; 
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 3px;
+  
+}
+
+.column-gallery img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+  transition: transform .2s;
+}
+
+.column-gallery img:hover {
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
+}
+
+.row-gallery {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 3px;
+  padding-top: 10px;
+  padding-right: 120px;
+  padding-bottom: 100px;
+  padding-left: 120px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column-gallery {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column-gallery {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* footer */
+footer{
+  padding-left: 120px;
+  bottom: 10%;
+  margin-top: 120px;
+}
+
+.content {
+  min-height: 600px;
+}
+
+/* Calculate two number in project work page */
+.button {
+  background-color: #6598FE;
+  border: none;
+  color: white;
+  padding: 10px 7px 10px 7px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  width: 10%;
+  cursor: pointer;
+    border-radius: 8px;
+    font-size: 35px;
+}
+
+.text {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 22px 22px;
+    border-radius: 8px;
+    font-size: 20px;
+    style="font-family:verdana;"
+}
+
+/* Project page */
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(233, 255, 31);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #3755ff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+/* social link at footer */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 2px;
+  border-radius: 50%;
+  color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}

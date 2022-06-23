@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+TC:wght@900&family=Yeseva+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mystyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $(".navbar button").click(function(){
+        $("body, h1, h2,p, table").toggleClass("theme");
+
+  });
+  });
+  </script>
+</head>
+<body>
+  <div class="navbar">
+      <ul>
+        <li><a id="contact" href="contact.html">CONTACT</a></li>
+        <li><a href="moreme.html">MORE ME</a></li>
+        <li><a class="active" href="resume.html">RESUME</a></li>
+        <li><a href="project.html">PROJECT WORK</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="home.html">HOME</a></li>
+        <!--<button id="smallbtn">Change theme</button>-->
+       </ul>
+   </div>
+
+ <div class="content">
+ <div class="header">
+     <h1>RESUME</h1>
+   <button id="smallbtn" onclick="window.print()">Print</button>
+ </div>
+ <div class="row">
+   <div class="column" style="height: 500px;">
+     <h2>EDUCATION</h2>
+     <div style="overflow-x:auto;">
+       <table>
+         <tr>
+           <th style="font-family: 'Bebas Neue', sans-serif;">2022-Present</th>
+           <th>Humber College</th>
+         </tr>
+         <tr>
+           <td></td>
+           <td>Computer Programming</td>
+         </tr>
+
+
+         <tr>
+           <th style="font-family: 'Bebas Neue', sans-serif;">2014</th>
+           <th>Moholy-Nagy University of Art and Design</th>
+         </tr>
+         <tr>
+           <td></td>
+           <td>Media Design</td>
+         </tr>
+
+
+         <tr>
+           <th style="font-family: 'Bebas Neue', sans-serif;">2011-2014</th>
+           <th>City University of Hong Kong</th>
+         </tr>
+         <tr>
+           <td></td>
+           <td>BA, Digital Media Broadcasting</td>
+         </tr>
+
+       </table>
+     </div>
+
+   </div>
+   <div class="column"  style="height: 100px;">
+     <h2>WORK EXPEREINCE</h2>
+     <table>
+       <tr>
+         <th style="font-family: 'Bebas Neue', sans-serif;">2018-2021</th>
+         <th>Computer And Technologies Limited</th>
+       </tr>
+       <tr>
+         <td></td>
+         <td>Senior Web Designer</td>
+       </tr>
+
+
+       <tr>
+         <th style="font-family: 'Bebas Neue', sans-serif;">2015-2018</th>
+         <th>OOCL</th>
+       </tr>
+       <tr>
+         <td></td>
+         <td>Media Specialist</td>
+       </tr>
+
+     </table>
+
+   </div>
+ </div>
+
+ </div>
+
+ <footer>
+   <a href="mailto:kylui82@gmail.com" class="fa fa-google"></a>
+   <a href="https://github.com/kylui82" class="fa fa-github"></a>
+   <p>Copyright © 2022 Francis Lui</p>
+ </footer>
+ </body>
+
+
+ </html>
