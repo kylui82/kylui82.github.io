@@ -17,7 +17,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ4F0VL0T3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-PJ4F0VL0T3');
@@ -25,21 +25,36 @@
 
 <body>
   <nav>
-  <div id="myDIV" class="navbar">
-    <ul>
-      <li><a class="btn" href="#metime">ME TIME</a></li>
-      <li><a class="btn" href="#projects">PROJECTS</a></li>
-      <li><a class="btn" href="#about">ABOUT</a></li>
-      <li><a class="btn active" href="#home">HOME</a></li>
-    </ul>
-    <div class="nav-icon-wrapper">
-      <a href="mailto:kylui82@gmail.com" class="fa fa-google nav-icon"></a>
-      <a href="https://www.linkedin.com/in/francis-lui/" target="_blank" class="fa fa-linkedin nav-icon"></a>
-      <a href="https://github.com/kylui82" target="_blank" class="fa fa-github nav-icon"></a>
-      <a href="https://www.behance.net/kylui82" target="_blank" class="fa fa-behance nav-icon"></a>
+    <div id="myDIV" class="navbar">
+      <div class="nav-menu">
+        <ul role="list">
+          <li><a class="btn active" href="#home">HOME</a></li>
+          <li><a class="btn" href="#about">ABOUT</a></li>
+          <li><a class="btn" href="#projects">PROJECTS</a></li>
+          <li><a class="btn" href="#metime">ME TIME</a></li>
+        </ul>
+      </div>
+
+      <div  class="nav-menu-dropdown">
+        <i class="fa fa-bars ham-icon"></i>
+        <div class="nav-menu-mobile">
+          <ul role="list"> 
+            <li><a class="btn" href="#home">HOME</a></li>
+            <li><a class="btn" href="#about">ABOUT</a></li>
+            <li><a class="btn" href="#projects">PROJECTS</a></li>
+            <li><a class="btn" href="#metime">ME TIME</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="nav-icon-wrapper">
+        <a href="mailto:kylui82@gmail.com" class="fa fa-google nav-icon"></a>
+        <a href="https://www.linkedin.com/in/francis-lui/" target="_blank" class="fa fa-linkedin nav-icon"></a>
+        <a href="https://github.com/kylui82" target="_blank" class="fa fa-github nav-icon"></a>
+        <a href="https://www.behance.net/kylui82" target="_blank" class="fa fa-behance nav-icon"></a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <div class="home-body">
     <div id="home" class="home-inner">
@@ -49,7 +64,7 @@
       <img src="./image/icon-hand.png" loading="lazy" alt="Waving hand icon" style="width: 40px;">
       <div>
         <p class="home-text">Hello! I'm Francis</p>
-        
+
       </div>
       <div>
         <p class="home-header">An passionate product designer and developer based in Canada</p>
@@ -152,7 +167,8 @@
         <div class="flex-item-right">
           <img src="./image/proj-chat.png" loading="lazy" alt="Francis" class="project-image">
           <p class="project-header">Chatbot with ChatGPT</p>
-          <p class="project-text">Explore the capability of OpenAI's models and study how to build a AI chatbot web application.</p>
+          <p class="project-text">Explore the capability of OpenAI's models and study how to build a AI chatbot web
+            application.</p>
           <p class="project-text-stack">Tech Stack: Django, BootStrap, OpenAI ChatGPT API</p>
           <div class="btn-list">
             <a href="https://github.com/Natasha-A/chatgpt-chatbot" target="_blank" class="view-project-btn">
@@ -161,7 +177,7 @@
                 <img loading="lazy" src="./image/github-mark-white.png" alt="" class="btn-image">
               </span>
             </a>
-           
+
           </div>
         </div>
         <div class="flex-item-left">
@@ -209,18 +225,19 @@
       <div>
         <p class="home-header">Outside coding, I love hiking and sunny day!</p>
       </div>
+
+
       <div class="row-gallery">
         <div class="column-gallery">
           <img src="./image/other/gallery-1.jpg" style="width:100%">
           <img src="./image/other/gallery-8.jpg" style="width:100%">
-          <img src="./image/other/gallery-3.jpg" style="width:100%" >
-
+          <img src="./image/other/gallery-3.jpg" style="width:100%">
         </div>
         <div class="column-gallery">
           <img src="./image/other/gallery-5.jpg" style="width:100%">
           <img src="./image/other/gallery-6.jpg" style="width:100%">
           <img src="./image/other/gallery-4.jpg" style="width:100%">
-        </div>  
+        </div>
         <div class="column-gallery">
           <img src="./image/other/gallery-7.jpg" style="width:100%">
           <img src="./image/other/gallery-2.jpg" style="width:100%">
@@ -239,13 +256,13 @@
     var header = document.getElementById("myDIV");
     var btns = header.getElementsByClassName("btn");
     for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
       });
     }
-    </script>
+  </script>
 </body>
 
 </html>
