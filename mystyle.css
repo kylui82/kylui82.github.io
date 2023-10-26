@@ -1,5 +1,5 @@
 body {
-  font-family: 'Gabarito', sans-serif;
+  font-family: 'Libre Baskerville', sans-serif;
   background: #ffffff;
   margin: 0px;
 }
@@ -61,7 +61,7 @@ html {
   display: block;
   text-align: center;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .nav-icon-wrapper {
@@ -126,8 +126,8 @@ li a:hover {
 .about-text {
   font-size: 17px;
   /* width: 60%; */
-  /* font-weight: 200; */
-  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 img {
@@ -347,9 +347,9 @@ footer {
 }
 
 .home-inner {
-  border: 2px solid #1d1d1d;
+  /* border: 2px solid #1d1d1d;
   border-radius: 20px;
-  background-color: #dae0ff;
+  background-color: #dae0ff; */
   padding-top: 40px;
   padding-bottom: 40px;
   max-width: 928px;
@@ -483,13 +483,14 @@ footer {
   border: 2px solid #1d1d1d;
   border-radius: 20px;
   padding: 10px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   display: inline-block;
 }
 
 .flex-item-left {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   /* padding: 30px; */
   align-items: center;
   justify-content: center;
@@ -500,6 +501,7 @@ footer {
 }
 
 .flex-item-right {
+  font-family: 'Roboto', sans-serif;
   align-items: center;
   justify-content: center;
   flex: 50%;
@@ -691,7 +693,7 @@ footer {
 
 .project-text {
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
   width: 80%;
   text-align: center;
   display: inline-block;
@@ -702,7 +704,7 @@ footer {
 
 .project-text-stack {
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 300;
   width: 80%;
   text-align: center;
   display: inline-block;
