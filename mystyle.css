@@ -882,13 +882,14 @@ footer {
 
 
 .dev-tag {
+  font-family: 'Libre Baskerville', sans-serif;
   background-color: #dae0ff;
   color: #393a7d;
   margin-bottom: 16px;
   margin-right: 16px;
   padding: 6px 10px;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 16px;
 }
 .dev-tags-wrapper {
