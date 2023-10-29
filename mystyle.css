@@ -865,6 +865,7 @@ footer {
   display: flex;
   padding-top: 10px;
   padding-bottom: 10px;
+  
 }
 
 .tag {
@@ -876,4 +877,26 @@ footer {
   font-size: 13px;
   font-weight: 700;
   line-height: 16px;
+}
+
+
+
+.dev-tag {
+  background-color: #dae0ff;
+  color: #393a7d;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+}
+.dev-tags-wrapper {
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
 }
