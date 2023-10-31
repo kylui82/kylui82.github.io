@@ -1,5 +1,5 @@
 body {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Libre Baskerville', Helvetica, Arial, sans-serif;
   background: #ffffff;
   margin: 0px;
 }
@@ -45,7 +45,7 @@ html {
 .nav-icon {
   width: 40px;
   height: 40px;
-  background-color: #dae0ff;
+  background-color: #eaedff;
   border: 1px solid #000;
   border-radius: 5px;
   transition: all .2s;
@@ -266,21 +266,6 @@ footer {
   min-height: 600px;
 }
 
-/* Calculate two number in project work page */
-.button {
-  background-color: #6598FE;
-  border: none;
-  color: white;
-  padding: 10px 7px 10px 7px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 2px;
-  width: 10%;
-  cursor: pointer;
-  border-radius: 8px;
-  font-size: 35px;
-}
 
 .text {
   width: 30%;
@@ -357,7 +342,7 @@ footer {
 .home-inner {
   /* border: 2px solid #1d1d1d;
   border-radius: 20px;
-  background-color: #dae0ff; */
+  background-color: #eaedff; */
   padding-top: 40px;
   padding-bottom: 40px;
   max-width: 928px;
@@ -387,7 +372,7 @@ footer {
   margin-bottom:0px;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Libre Baskerville', Helvetica, Arial, sans-serif;
   font-size: 25px;
   font-weight: 200;
   text-align: center;
@@ -631,6 +616,8 @@ footer {
     flex: 100%;
     display: flex;
   }
+
+  
 }
 
 
@@ -672,7 +659,7 @@ footer {
 }
 
 .background-blue {
-  background-color: #dae0ff;
+  background-color: #eaedff;
 }
 
 
@@ -882,8 +869,8 @@ footer {
 
 
 .dev-tag {
-  font-family: 'Libre Baskerville', sans-serif;
-  background-color: #dae0ff;
+  font-family: 'Libre Baskerville', Helvetica, Arial, sans-serif;
+  background-color: #eaedff;
   color: #393a7d;
   margin-bottom: 16px;
   margin-right: 16px;
@@ -901,3 +888,55 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.detail-main{
+  margin-top: 100px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.design-summary{
+  grid-row-gap: 0px;
+  border: 1px #7b9194;
+  border-bottom: 1px solid #85b9c0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.design-block{
+  padding: 30px;
+  background-color: #eaedff;
+  border-radius: 15px;
+  font-family: 'DM Sans', Helvetica, Arial, sans-serif;
+  margin-top: 50px;
+}
+.block-title{
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-family: 'Libre Baskerville', Helvetica, Arial, sans-serif;
+}
+.design-card{
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #4b5ef3;
+    background-color: #ffffff;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-icon{
+  display: flex;
+  align-items: center;
+
+}
+
+.icon{
+  padding: 5px;
+  font-size: 17px;
+}
+
