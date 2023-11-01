@@ -135,9 +135,9 @@ li a:hover {
   font-family: 'DM Sans', Helvetica, Arial, sans-serif;
 }
 
-img {
+/* img {
   padding: 5px;
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -458,7 +458,7 @@ footer {
 }
 
 .home-image {
-  border: 2px solid #1d1d1d;
+  /* border: 2px solid #1d1d1d; */
   border-radius: 50%;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -665,7 +665,7 @@ footer {
 
 
 .project-image {
-  border: 2px solid #1d1d1d;
+  /* border: 2px solid #1d1d1d; */
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -773,7 +773,6 @@ footer {
 
 .design-image {
   transition: .5s ease;
-  border: 2px solid #1d1d1d;
   border-radius: 10px;
   margin-top: 5px;
   margin-bottom: 20px;
