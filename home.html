@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="mystyle.css">
   <title>Francis Lui's Portfolio'</title>
   <meta name="description" content="Francis Lui is a UI Designer and Software Developer in Canada.">
-  <link rel="shortcut icon" type="image/jpg" href="./image/icon-tab.png"/>
+  <link rel="shortcut icon" type="image/jpg" href="./image/icon-tab.png" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -79,13 +79,13 @@
 
 
   <div>
-    <section id="design" class="section border-bottom background-blue">
+    <section id="design" class="section reveal background-blue">
       <div class="badge">
         <div class="badge-text">#Design</div>
       </div>
       <div class="design-container">
         <div class="design-item-left">
-        <h1 class="design-item-header">Web/Mobile App UI Design</h1>
+          <h1 class="design-item-header">Web/Mobile App UI Design</h1>
           <p class="design-item-text">
             Workforce Management Solution
           </p>
@@ -213,7 +213,7 @@
   </div>
 
   <div>
-    <section id="coding" class="section border-bottom">
+    <section id="coding" class="section reveal">
       <div class="badge">
         <div class="badge-text">#Coding</div>
       </div>
@@ -229,10 +229,10 @@
             <div class="dev-tag">Vercel</div>
             <div class="dev-tag">Figma</div>
           </div>
-         
+
           <p class="project-text">A project where the goal was to create an app that allow people search
             restaurants based on the dish name they love.</p>
-          
+
           <div class="btn-list">
             <a href="https://github.com/kylui82/Taste-Finder" target="_blank" class="view-project-btn">
               <span>View Github</span>
@@ -306,7 +306,7 @@
           </div>
           <p class="project-text">Explore the capability of OpenAI's models and study how to build a AI chatbot web
             application.</p>
-         
+
           <div class="btn-list">
             <a href="https://github.com/Natasha-A/chatgpt-chatbot" target="_blank" class="view-project-btn">
               <span>View Github</span>
@@ -364,7 +364,7 @@
 
 
     <div>
-      <section id="about" class="section border-bottom background-purple">
+      <section id="about" class="section reveal background-purple">
         <div class="about-header-sec">
           <div class="badge badge-about">
             <div class="badge-text">#About</div>
@@ -398,7 +398,7 @@
         </div>
 
         <div>
-          <p class="home-header">In my spare time, I love hiking and sunny day!</p>
+          <p class="home-header">"In my spare time, I love hiking and sunny day!"</p>
         </div>
         <div class="row-gallery">
           <div class="column-gallery">
@@ -420,20 +420,38 @@
       </section>
     </div>
 
-  <footer>
-    <p>Copyright 2023 Francis Lui</p>
-  </footer>
-  <script>
-    var header = document.getElementById("myDIV");
-    var btns = header.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-      });
-    }
-  </script>
+    <footer>
+      <p>Copyright 2023 Francis Lui</p>
+    </footer>
+    <script>
+      var header = document.getElementById("myDIV");
+      var btns = header.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+
+      function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+
+      window.addEventListener("scroll", reveal);
+    </script>
 </body>
 
 </html>

@@ -122,7 +122,7 @@ li a:hover {
   background-color: #ff935e;
 }
 
-.active {
+.navbar .nav-menu .active {
   color: #e24b00;
   /* background-color: #ffe1c4; */
 }
@@ -408,6 +408,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   padding-top: 0px;
+  
 
 }
 
@@ -594,6 +595,7 @@ footer {
     margin-left: 50px;
     margin-right: 50px;
     padding: 0;
+    transform: perspective(1200px);
   }
 
   .design-item-left {
@@ -937,5 +939,17 @@ footer {
 .icon{
   padding: 5px;
   font-size: 17px;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }
 
