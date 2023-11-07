@@ -1,5 +1,5 @@
 body {
-  font-family: 'Libre Baskerville', Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
   background: #ffffff;
   margin: 0px;
 }
@@ -372,7 +372,7 @@ footer {
   margin-bottom:0px;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Libre Baskerville', Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
   font-size: 25px;
   font-weight: 200;
   text-align: center;
@@ -870,7 +870,7 @@ footer {
 
 
 .dev-tag {
-  font-family: 'Libre Baskerville', Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
   background-color: #eaedff;
   color: #393a7d;
   margin-bottom: 16px;
@@ -918,7 +918,7 @@ footer {
 .block-title{
   padding-bottom: 10px;
   font-size: 30px;
-  font-family: 'Libre Baskerville', Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
 }
 .design-card{
   padding: 10px;
