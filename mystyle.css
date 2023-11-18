@@ -661,13 +661,29 @@ footer {
 }
 
 .background-blue {
-  background-color: #eaedff;
+  background-color: #f3f0ff;
+}
+
+.design-container 
+img:hover {
+
+  transform: scale(1.04);
+}
+
+.flex-container
+img:hover {
+  
+  transform: scale(1.04);
 }
 
 
-
 .project-image {
-  /* border: 2px solid #1d1d1d; */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s ease;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -774,6 +790,11 @@ footer {
 }
 
 .design-image {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
   transition: .5s ease;
   border-radius: 10px;
   margin-top: 5px;
