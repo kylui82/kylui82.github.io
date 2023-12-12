@@ -1,5 +1,5 @@
 body {
-  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   background: #ffffff;
   margin: 0px;
 }
@@ -372,7 +372,7 @@ footer {
   margin-bottom:0px;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   font-size: 25px;
   font-weight: 200;
   text-align: center;
@@ -892,7 +892,7 @@ img:hover {
 
 
 .dev-tag {
-  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   background-color: #eaedff;
   color: #393a7d;
   margin-bottom: 16px;
@@ -941,8 +941,10 @@ img:hover {
   padding-top: 20;
   margin-bottom: 0;
   padding-bottom: 0;
+  color: #4b5ef3;
+  text-transform: uppercase;
   font-size: 25px;
-  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
 }
 
 .design-card{
