@@ -61,7 +61,8 @@ html {
   display: block;
   text-align: center;
   text-decoration: none;
-  font-size: 12px;
+  font-weight: bold;
+  font-size:  1rem;
 }
 
 .nav-icon-wrapper {
@@ -72,7 +73,7 @@ html {
 }
 
 .nav-icon-wrapper a {
-  font-size: 16px;
+  font-size: 1.1rem;
 }
 
 .ham-icon {
@@ -129,7 +130,7 @@ li a:hover {
 
 
 .about-text {
-  font-size: 17px;
+  font-size: 1.1rem;
   width: 80%;
   font-weight: 300;
   font-family: 'DM Sans', Helvetica, Arial, sans-serif;
@@ -272,7 +273,7 @@ footer {
   border: 1px solid #ccc;
   padding: 22px 22px;
   border-radius: 8px;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 /* Project page */
@@ -361,7 +362,8 @@ footer {
 .home-text {
   margin-top: 25px;
   margin-bottom: 5px;
-  font-size: 50px;
+  font-size: 3rem;
+  font-weight: bolder;
   color: #000000;
 }
 
@@ -373,7 +375,7 @@ footer {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  font-size: 25px;
+  font-size: 3rem;
   font-weight: 200;
   text-align: center;
   position: relative;
