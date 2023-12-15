@@ -472,7 +472,7 @@ footer {
 
 .about-image {
   /* border: 2px solid #1d1d1d; */
-  border-radius: 100%;
+  border-radius: 5%;
   margin-top: 10px;
   margin-bottom: 10px;
   object-fit: cover;
@@ -686,7 +686,7 @@ img:hover {
   -moz-transition:.5s;
   -webkit-transition:.5s;
   transition: .5s ease;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -699,7 +699,7 @@ img:hover {
 }
 
 .view-project-btn {
-  background-color: #4b5ef3;
+  background-color: rgb(46, 55, 122);
   /* border: #1a2536 solid 2px; */
   border-radius: 8px;
   color: #ffffff;
@@ -732,11 +732,11 @@ img:hover {
 }
 
 .view-project-btn:hover {
-  background-color: #334084;
+  background-color: #525b8f;
 }
 
 .view-project-btn:active {
-  background-color: #152372;
+  background-color: #0b0e1a;
   /* transform: scale(0.95); */
 }
 
@@ -793,7 +793,7 @@ img:hover {
 }
 
 .design-image {
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -846,7 +846,7 @@ img:hover {
 }
 
 .design-item-header {
-  color: #4b5ef3;
+  color:  rgb(46, 55, 122);
   margin: 0;
   text-transform: uppercase;
   text-align: left;
@@ -943,7 +943,7 @@ img:hover {
   padding-top: 20;
   margin-bottom: 0;
   padding-bottom: 0;
-  color: #4b5ef3;
+  color: rgb(46, 55, 122);
   text-transform: uppercase;
   font-size: 25px;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -953,7 +953,7 @@ img:hover {
   padding: 10px;
   margin-top: 0px;
   margin-bottom: 20px;
-  color: #4b5ef3;
+  color: rgb(46, 55, 122);
     background-color: #ffffff;
     border-radius: 15px;
     justify-content: space-around;
@@ -986,7 +986,7 @@ mark {
   -webkit-animation: 1.5s highlight 0s 1 normal forwards;
           animation: 1.5s highlight 0s 1 normal forwards;
   background-color: none;
-  background: linear-gradient(90deg, #ffc97e 50%, rgba(255, 255, 255, 0) 50%);
+  background: linear-gradient(90deg, #ffe1c4 50%, rgba(255, 255, 255, 0) 50%);
   background-size: 200% 100%;
   background-position: 100% 0;
 }
