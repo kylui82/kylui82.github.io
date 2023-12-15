@@ -700,7 +700,7 @@ img:hover {
 
 .view-project-btn {
   background-color: #4b5ef3;
-  border: #1a2536 solid 2px;
+  /* border: #1a2536 solid 2px; */
   border-radius: 8px;
   color: #ffffff;
   /* display: inline-block; */
@@ -1001,4 +1001,9 @@ mark {
   to {
     background-position: 0 0;
   }
+}
+
+:focus {
+  color: #000;
+  background-color: rgb(255, 214, 51);
 }
