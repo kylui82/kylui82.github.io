@@ -124,7 +124,7 @@ li a:hover {
 }
 
 .navbar .nav-menu .active {
-  color: #e24b00;
+  color: rgb(180, 60, 0);
   /* background-color: #ffe1c4; */
 }
 
